@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+body{
+    background-image: url(./images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+}
+
+.container{
+    width: 1245px;
+    height: auto;
+    margin: 0 auto;
+}
+/********* header small row *****/
+.king-hedr{
+    width: 1245px;
+    height: 35px;
+    background-color: rgb(17, 17, 16);
+    padding: 10px 0 10px 0;
+    opacity: 0.8;
+}
+
+.king-icon{
+    width: 210px;
+    height: 35px;
+    background-color: #e3e3e3;
+    border-radius: 6px;
+    border: 2px solid white;
+    float: left;
+    margin-left: 217px;
+    margin-right: 50px;
+}
+
+.king-icon span{
+    width: 75px;
+    height: 20px;
+    text-align: center;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+
+.kingpwr{
+    margin-left: 15px;
+    float: left;
+    margin-top: 8px;
+}
+
+.arrow{
+    width: 30px;
+    height: 30px;
+    float: right;
+    background-color: #dff2f7;
+    margin-right: 1px;
+    padding: 5px 0 0 0;
+}
+
+.arrow-up, .arrow-down{
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    margin-left: 9px;
+}
+.arrow-up{
+    background-image: url(./images/arrow-up.jpg);
+}
+
+.arrow-down{
+    background-image: url(./images/arrow-down.jpg);
+}
+
+.purchase{
+    width: 150px;
+    height: 35px;
+    float: left;
+    color: white;
+}
+
+.purchase span{
+    float: left;
+    padding-top: 7px;
+    padding-right: 10px;
+}
+
+.purchase h4{
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+/***** heder small button ******/
+
+.hdr-btn{
+    width: 100%;
+    height: 30px;
+    background-color: #f16236;
+    color: white;
+}
+
+.floated{
+    float: left;
+    display: block;
+}
+
+.floated span a, h6 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.floated span, h6, a:hover{
+    color: black;
+}
+.margin-lft{
+    margin-left: 32px;
+}
+
+.margin-lft1{
+    margin-left: 400px;
+}
+
+.padding{
+    padding: 6px 12px 0 12px;
+}
+.margin-top{
+    margin-top: 10px;
+}
+
+.floated span, h6{
+    float: left;
+}
+
+.floated h6{
+    padding: 10px 10px 0 10px;
+    font-weight: normal;
+}
+
+.floated-rgt{
+    float: right;
+}
+
+.floated-rgt span{
+    display: inline-block;
+    padding: 5px;
+}
+
+.margin-rgt{
+    margin-right: 20px;
+}
+
+
+/******* header button *******/
+
+.header{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+}
+
+.header a{
+    color: black;
+    display: block;
+}
+
+
+
+.header div:hover{
+    background-color: #f1f1f1;
+    height: 65px;
+}
+
+.active{
+    background-color: #f1f1f1;
+    width: 90px;
+    height: 65px;
+}
+
+.float-box{
+    float: left;
+    padding: 35px 20px 10px 35px;
+}
+
+.float-box span, .float-box h5, .float-box h1, .float-box h6{
+    float: left;
+    margin-top: 10px;
+}
+
+.float-box span{
+    padding-right: 10px;
+    height: 70px;
+}
+
+.float-box h1{
+    margin-top: 8px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.float-box h5{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.float-box h6{
+    margin-bottom: 10px;
+}
+
+.float-box p{
+    font-size: 8px;
+    color: #969696;
+}
+
+.float-box h5::after{
+    content: "»";
+    margin-left: 7px;
+}
+
+.minus-margin *{
+    margin-top: -10px;
+}
+
+/********** bg-button *********/
+
+.box-lft, .box-rgt{
+    width: 35px;
+    height: 35px;
+    padding-top: 15px;
+    background-color: #f16236;
+    border: 2px solid white;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    position: absolute;
+}
+
+.box-lft{
+    top: 350px;
+    left: 0;
+    border-left: none;
+
+}
+
+.box-rgt{
+    right: 0;
+    top: 350px;
+    border-right: none;
+}
+
+.box-lft a, .box-rgt a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+
+/******** para-box ***********/
+
+.para-box{
+    width: 470px;
+    height: 70px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    opacity: 0.7;
+    position: absolute;
+    top: 530px;
+    border-right: 4px inset #f16236;
+}
